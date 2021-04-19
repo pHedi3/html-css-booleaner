@@ -52,7 +52,7 @@ p, ul, .table {
 
 } 
 
-.first-row div {
+/* .first-row div {
     display: inline-block ;
     width: 33%;
     background-color: rgb(59, 56, 252);
@@ -83,7 +83,7 @@ p, ul, .table {
 }
 .cella {
     padding-left: 4px;
-}
+} */
 
 
 .impo {
@@ -125,4 +125,21 @@ h3 {
 .logo, main, footer {
     padding-left: 7%;
     padding-right: 7%;
+}
+
+th  {
+    background-color: blue;
+    text-align: left;
+    color: white;
+}
+
+.second-row, .four-row {
+    background-color: lightblue;
+
+}
+.first-cell, .second-cell {
+    width: 25%;
+}
+.tird-cell {
+    width: 50%;
 }

@@ -7,6 +7,10 @@ main, footer {
     padding: 10px;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+}
 
 .logo{
     height: 50%;
@@ -21,7 +25,7 @@ main, footer {
 header {
     background-image: url(../img/pattern.png);
     width: 100%;
-    height: 125px;
+    height: 125%;
     background-size: cover;
     background-size: 40%;
     background-repeat: repeat-x;
@@ -53,7 +57,7 @@ p, ul, .table {
 
 } 
 
-.first-row div {
+/* .first-row div {
     display: inline-block ;
     width: 33%;
     background-color: rgb(59, 56, 252);
@@ -85,6 +89,8 @@ p, ul, .table {
 .cella {
     padding-left: 4px;
 }
+ */
+
 
 
 .impo {
@@ -118,4 +124,21 @@ footer {
 h3 {
     color: grey;
     padding: 5px;
+}
+
+th  {
+    background-color: blue;
+    text-align: left;
+    color: white;
+}
+
+.second-row, .four-row {
+    background-color: lightblue;
+
+}
+.first-cell, .second-cell {
+    width: 25%;
+}
+.tird-cell {
+    width: 50%;
 }
