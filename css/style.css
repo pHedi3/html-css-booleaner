@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -25,3 +26,61 @@ header {
     background-color: blue;
     position: relative;
 }
+
+h1{
+    font-size: 45px;
+
+}
+
+.description{
+    font-size: 10pox;
+    color: grey;
+
+}
+
+.autore {
+    color: blue;
+}
+img {
+    padding-top: 10px;
+}
+
+p, ul, .table {
+    padding: 10px;
+
+}
+
+.first-row div {
+    display: inline-block ;
+    width: 33%;
+    background-color: rgb(59, 56, 252);
+    color: white;
+}
+
+.secondo-row div {
+    display: inline-block;
+    width: 33%;
+    background-color: lightblue;
+    height: 65px;
+    vertical-align: middle;
+}
+
+.tre-row div {
+    display: inline-block;
+    width: 33%;
+    height: 65px;
+    vertical-align: middle;
+
+}
+.four-row div {
+    display: inline-block;
+    width: 33%;
+    background-color: lightblue;
+    height: 65px;
+    vertical-align: middle;
+}
+.cella {
+    padding-left: 4px;
+}
+
+
